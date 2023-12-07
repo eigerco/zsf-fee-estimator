@@ -40,7 +40,6 @@ Blocks.times do |n|
   block = JSON.parse(block)
 
   block["tx"].each do |tx|
-    pp tx
     actions = logical_action_count(tx)
     fee = calculate_fee(actions)
     tx_count += 1
