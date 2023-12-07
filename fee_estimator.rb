@@ -21,7 +21,7 @@ def logical_action_count(tx)
 
     #[(tx_in_total_size.to_f / P2pkhStandardInputSize).ceil,
     #                (tx_out_total_size.to_f / P2pkhStandardOutputSize).ceil].max +
-  tx["vin"].size + tx["vout"].size +
+  [tx["vin"].size, tx["vout"].size].max +
     2 * tx["vjoinsplit"].size +
     [tx["vShieldedSpend"].size, tx["vShieldedOutput"].size].max +
     (tx.dig("orchard", "actions")&.size || 0)

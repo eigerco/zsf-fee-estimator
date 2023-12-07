@@ -9,7 +9,7 @@ This tool connects to a Zcash node via `zcash-cli`, queries data about a certain
 Statistics from block 2216606 to block 2321725
 Number of blocks: 105120
 Number of transactions: 344647
-Estimated average logical action count: 20.18
-Total estimated fees: 34781005000 (347.81 ZEC)
-Estimated average fees per transaction: 100917.77 (0.00 ZEC)
+Estimated average logical action count: 19.43
+Total estimated fees: 33649575000 (336.50 ZEC)
+Estimated average fees per transaction: 97634.90 (0.00 ZEC)
 ```
