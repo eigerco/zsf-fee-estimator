@@ -6,10 +6,11 @@ This tool connects to a Zcash node via `zcash-cli`, queries data about a certain
 ## Example output
 
 ```
-Statistics from block 2216606 to block 2321725
-Number of blocks: 105120
-Number of transactions: 344647
-Estimated average logical action count: 19.43
-Total estimated fees: 33649575000 (336.50 ZEC)
-Estimated average fees per transaction: 97634.90 (0.00 ZEC)
+Statistics from block 2235515 to block 2335514
+Number of blocks: 100000
+Number of transactions: 316130
+Number of sandblasting transactions: 60608 (19.17%)
+Estimated average logical action count: 5.46
+Total estimated fees: 8786475000 (87.86 ZEC)
+Estimated average fees per transaction: 27793.87 (0.00 ZEC)
 ```
